@@ -20,10 +20,10 @@
 <icon src"imagenes/icono72.png" gap:platform="android" gap:density="hdpi"/>
 <icon src="imagenes/icono96.png" gap:platform="android" gap:density="xhdpi"/>
 
-<icon src="imagenes/spash426x320.png" gap:platform="android" gap:density="ldpi"/>
-<icon src="imagenes/spash470x320.png" gap:platform="android" gap:density="mdpi"/>
-<icon src="imagenes/spash640x480.png" gap:platform="android" gap:density="hdpi"/>
-<icon src="imagenes/spash970x720.png" gap:platform="android" gap:density="xhdpi"/>
+<splash src="imagenes/spash426x320.png" gap:platform="android" gap:density="ldpi"/>
+<splash src="imagenes/spash470x320.png" gap:platform="android" gap:density="mdpi"/>
+<splash src="imagenes/spash640x480.png" gap:platform="android" gap:density="hdpi"/>
+<splash src="imagenes/spash970x720.png" gap:platform="android" gap:density="xhdpi"/>
 
 <preference name="orientation" value="portrait"/>
 <preference name="fullscreen" value="false"/>
