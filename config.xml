@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns  ="http://www.w3.org/ns/widgets"
+   xmlns:gap = "http://phonegap.com/ns/1.0"
+   id ="com.sharpeisadopcion.phonegap"
+   versionCode="10"
+   version ="1.0.0">
+<name>Shar peis en Adopcion</name>
+<description>
+	App para encontar shar peis en adopcion
+</description>
+<author email="raqcarb@hotmail.com" href="#">
+	Raquel Carbonell
+</author>
+//Plataforma en la que se compilará la app y las preferencias (tabmien se puede utilizar en namespace gap)
+
+<gap:platform name="android"/>
+
+<icon src="imagenes/icono36.png" gap:platform="android" gap:density="ldpi"/>
+<icon src="imagenes/icono48.png" gap:platform="android" gap:density="mdpi"/>
+<icon src"imagenes/icono72.png" gap:platform="android" gap:density="hdpi"/>
+<icon src="imagenes/icono96.png" gap:platform="android" gap:density="xhdpi"/>
+
+<icon src="imagenes/spash426x320.png" gap:platform="android" gap:density="ldpi"/>
+<icon src="imagenes/spash470x320.png" gap:platform="android" gap:density="mdpi"/>
+<icon src="imagenes/spash640x480.png" gap:platform="android" gap:density="hdpi"/>
+<icon src="imagenes/spash970x720.png" gap:platform="android" gap:density="xhdpi"/>
+
+<preference name="orientation" value="portrait"/>
+<preference name="fullscreen" value="false"/>
+<preference name="android-installLocation" value="auto"/>
+<preference name="SplashScreenDelay" value="10000"/>
+
+<content src="index.html"/>
+<access origin="*"/>
+<icon src=""/>
+<splash src=""/>
+
+<plugin name="cordova-plugin-contacts" spec="~2.3.1" />
+</widget>
